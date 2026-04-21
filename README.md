@@ -1,16 +1,29 @@
-## Hi there 👋
+<h1 align="center" >StressedVibeCoder</h1>
+  
+```C++
+#include <iostream>
+#include <vector>
+#include <string>
 
-<!--
-**StressedVibeCoder/StressedVibeCoder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+using namespace std;
 
-Here are some ideas to get you started:
+int main(){
+  string pronouns[2] = {"he", "him"};
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  vector<string> codeLanguageLearned;
+  codeLanguageLearned.push_back("C++");
+  codeLanguageLearned.push_back("C");
+  codeLanguageLearned.push_back("Java");
+  codeLanguageLearned.push_back("Python");
+
+  int howManyWorksDone = -1;
+  int yearsFromEndingSchool = 2;
+
+  string workingNow = "No active project, just building ideas";
+
+  string whatAmI = "A developer turning stress into working code";
+  string whatILike = "C++, Linux and building things that actually work";
+
+  return 0;
+}
+```
